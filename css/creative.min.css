@@ -215,7 +215,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px
 }
 
-/*section compare yourself*/
+/*section general study costs*/
 section  .yourself .container .row h1 {
 	color: #fff;
 }
@@ -259,6 +259,23 @@ section .loaner .container .row .loaning-box i {
 
 section .loaner .container .row .loaning-box p {
 	color: #fff;
+}
+
+section .loaner .container .row .loaning-box a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+section .loaner .container .row .loaning-box a:visited {
+	color: #01DFA5;
+}
+
+section .loaner .container .row .loaning-box a:hover {
+	color: #0080FF;
+}
+
+section .loaner .container .row .loaning-box a:active {
+	color: #0080FF;
 }
 
 /*section student jobs*/
