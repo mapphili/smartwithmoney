@@ -14,7 +14,7 @@ function Calculate() {
 	} else if (isNaN(savinggoal) || isNaN(currentmoney) || isNaN(savemonth)) {
 			alert("Please fill in numbers.")
 	} else if (currentmoney > savinggoal) {
-			output.innerHTML = "Gongrats! You have already reached your saving goal!";
+			output.innerHTML = "Congrats! You have already reached your saving goal!";
 	} else {
 	output.innerHTML = "You still have " + Math.ceil(moneyleft) + " months left to save.";
 	}
