@@ -3,8 +3,8 @@ function Calculate() {
 	var savinggoal = document.getElementById("SavingGoal").value;
 	var currentmoney = document.getElementById("CurrentMoney").value;
 	var savemonth = document.getElementById("SaveMonth").value;
-	var savingmoney = parseFloat(savinggoal) - parseFloat(currentmoney);
-	var moneyleft = savingmoney / parseFloat(savemonth);
+	var savingmoney = (savinggoal) - (currentmoney);
+	var moneyleft = savingmoney / (savemonth);
 	console.log(moneyleft);
 	//return Math.abs(moneyleft);
 	
