@@ -263,11 +263,11 @@ section .loaner .container .row .loaning-box p {
 
 section .loaner .container .row .loaning-box a:link {
 	text-decoration: none;
-	color: #fff !important;
+	color: #fff;
 }
 
 section .loaner .container .row .loaning-box a:visited {
-	color: #0080FF;
+	color: #fff;
 }
 
 section .loaner .container .row .loaning-box a:hover {
